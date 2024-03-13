@@ -17,9 +17,7 @@ interface ProductProps {
 }
 
 export default function Product({ product }: ProductProps) {
-  function handleBuyProduct() {
-    console.log(product.defaultPriceId)
-  }
+  
 
   const { isFallback } = useRouter()
 
